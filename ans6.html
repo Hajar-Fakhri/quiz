@@ -1,0 +1,19 @@
+<script>
+    let x = Number(prompt("enter number:"));
+    let y = Number(prompt("enter number:"));
+    let z = Number(prompt("enter number:"));
+    function maxNumber(x,y,z){
+        let arr = [];
+        arr.push(x);
+        arr.push(y);
+        arr.push(z);
+        
+        arr.sort(function(a,b){
+            return a - b;
+        })
+        
+        let maxNum = arr.pop();
+        return maxNum;
+    }
+    console.log(maxNumber(x,y,z));
+</script>

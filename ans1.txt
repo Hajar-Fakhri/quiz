@@ -1,0 +1,15 @@
+Ans 1: The differences between var, const and let are:
+•	Var value changeable
+•	It can be reassigned ex: var x = “hello”;  var x = 44;
+•	It does not have block scope
+
+•	Let value is changeable
+•	Let has block scope
+•	It cannot be redeclared
+
+•	Const value is not changeable
+•	It cannot be redclared
+•	It has block scope
+•	We cannot reassign value to it 
+
+Ans2: for in loop is used for objects, which iterates through the objects
